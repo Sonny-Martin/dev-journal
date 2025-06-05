@@ -1,4 +1,5 @@
-# Positive or Negative
+# 1. Positive, Negative, or Zero
+# This section checks if a number is positive, negative, or zero.
 number = int(input("Enter a number: "))
 
 if number > 0:
@@ -9,8 +10,8 @@ else:
     print("Zero")
 
 
-
-# Grade Checker
+# 2. Even or Odd Checker
+# This checks whether a number is divisible by 2 (even) or not (odd).
 number = int(input("Enter a number: "))
 
 if number % 2 == 0:
@@ -19,8 +20,8 @@ else:
     print("Odd")
 
 
-
-# Odd or Even
+# 3. Grade Checker
+# This checks what letter grade a score between 1-100 falls into.
 score = int(input("Enter a score (1-100): "))
 
 if score >= 90:
